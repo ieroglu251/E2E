@@ -1,6 +1,11 @@
 package com.vytrack.tests.smoketest;
 
-public class SmokeTest extends TestBase{
+import com.vytrack.utilities.ConfigurationReader;
+import com.vytrack.utilities.TestBase;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class SmokeTest extends TestBase {
 
     @Test(groups= {"smoke"})
     public void verifyDashboards() {

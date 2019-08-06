@@ -1,11 +1,14 @@
 package com.vytrack.utilities;
 
+import com.vytrack.pages.activities.CalanderEventsPage;
+import com.vytrack.pages.dashboards.DashboardPage;
+import com.vytrack.pages.dashboards.ManageDashboards;
 import com.vytrack.pages.login_navigation.LoginPage;
 
 public class Pages {
 
     private LoginPage loginPage;
-    private CalendarEventsPage calendarEventsPage;
+    private CalanderEventsPage calendarEventsPage;
     private DashboardPage dashboardPage;
     private ManageDashboards manageDashboards;
 
@@ -17,9 +20,9 @@ public class Pages {
         return loginPage;
     }
 
-    public CalendarEventsPage calendarEventsPage() {
+    public CalanderEventsPage calendarEventsPage() {
         if (calendarEventsPage == null) {
-            calendarEventsPage = new CalendarEventsPage();
+            calendarEventsPage = new CalanderEventsPage();
         }
         return calendarEventsPage;
     }

@@ -1,6 +1,13 @@
 package com.vytrack.tests.components.login_navigation;
 
-public class Login_Tests extends TestBase{
+import com.vytrack.utilities.ConfigurationReader;
+import com.vytrack.utilities.TestBase;
+import org.testng.Assert;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+public class Login_Tests extends TestBase {
 
     @Test
     public void loginTest1() {

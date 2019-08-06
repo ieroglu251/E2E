@@ -1,6 +1,12 @@
 package com.vytrack.tests.components.activities;
 
-public class CalendarEventsTests extends TestBase{
+import com.vytrack.utilities.BrowserUtils;
+import com.vytrack.utilities.ConfigurationReader;
+import com.vytrack.utilities.TestBase;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class CalendarEventsTests extends TestBase {
 
     @Test
     public void verifyTitleColumn() {

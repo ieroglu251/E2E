@@ -21,12 +21,12 @@ import java.util.concurrent.TimeUnit;
 public class TestBase {
 
     //should be public/protected !!!!
-    protected WebDriver driver;
-    protected Pages pages;
-    protected SoftAssert softAssert;
-    protected static ExtentReports report;
-    protected static ExtentHtmlReporter htmlReporter;
-    protected static ExtentTest extentLogger;
+    protected WebDriver driver;                                         //webdriver class
+    protected Pages pages;                                              //pages class we created
+    protected SoftAssert softAssert;                                    //this is softassert class inherited
+    protected static ExtentReports report;                              //this extend report class inherited
+    protected static ExtentHtmlReporter htmlReporter;                  //This is extent html report class
+    protected static ExtentTest extentLogger;                          //this is extend report class inherited
     private static final Logger logger = LogManager.getLogger();
 
 
